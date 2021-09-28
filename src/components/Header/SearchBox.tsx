@@ -25,7 +25,7 @@ const SearchBox: React.FC = () => {
         placeholder="Buscar na plataforma"
         _placeholder={{ color: "gray.400" }}
       />
-      <Icon as={RiSearchLine} fontSize="20" />
+      <Icon cursor="pointer" as={RiSearchLine} fontSize="20" />
     </Flex>
   );
 };

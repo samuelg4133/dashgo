@@ -35,9 +35,7 @@ const InputBase: ForwardRefRenderFunction<HTMLInputElement, InputProps> = (
         ref={ref}
         {...rest}
       />
-      {!!error && (
-        <FormErrorMessage>O campo {label} é obrigatório</FormErrorMessage>
-      )}
+      {!!error && <FormErrorMessage>{error.message}</FormErrorMessage>}
     </FormControl>
   );
 };

@@ -42,6 +42,7 @@ export default function UserList(): JSX.Element {
                 size="sm"
                 fontSize="sm"
                 colorScheme="pink"
+                cursor="pointer"
                 leftIcon={<Icon as={RiAddLine} fontSize="20" />}
               >
                 Criar novo
@@ -77,6 +78,7 @@ export default function UserList(): JSX.Element {
                 <Td>
                   <Button
                     as="a"
+                    cursor="pointer"
                     size="sm"
                     fontSize="sm"
                     colorScheme="purple"
